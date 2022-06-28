@@ -8,7 +8,7 @@
     <div class="bottom">
       <div class="bottom-content">
         <div class="place-choose">
-          <h2 class="title">Place choose</h2>
+          <div class="title">Place choose</div>
           <div>choose a screencast scene</div>
         </div>
         <div class="information_icon">
@@ -44,12 +44,12 @@
   background-color: #7165fb;
   border-radius: 3rem;
   display: grid;
-  grid-template-rows: 47vh 53vh;
 }
 .wrap {
   padding: 1.4rem 2.4rem 0rem 2.4rem;
   box-sizing: border-box;
   border-radius: 3rem;
+  background-image: url(../../../assets/imgs/bg_color_icon.png);
 }
 .img {
   width: 2.4rem;
@@ -67,15 +67,16 @@
   color: #fffffb;
   font-size: 1.8rem;
   background-image: url(../../../assets/imgs/tv-characters.png);
+  transform: scale(1);
   background-size: 26.6rem 30rem;
   background-position-x: 3rem;
   background-repeat: no-repeat;
-  height: 28.2rem;
+  height: 23.5rem;
 }
 .bottom {
-  padding: 2rem;
+  background-color: rgba(132, 120, 227, 0.7);
   border-radius: 3rem;
-  background-color: #9b89ed;
+  padding: 0rem 2rem 2rem 2rem;
 }
 .bottom-content {
   display: grid;
@@ -89,8 +90,8 @@
 .title {
   font-size: 2rem;
   color: #fffffb;
+  font-weight: 700;
 }
-
 .screen-mirror {
   display: grid;
   grid-template-columns: 1fr 6fr;
@@ -106,7 +107,6 @@
 }
 .online-video {
   font-size: 2.1rem;
-  padding: 1rem 0;
   font-weight: 900;
 }
 .sub-title-second {
@@ -134,5 +134,9 @@
 .video_icon {
   width: 4rem;
   height: 4rem;
+}
+.yuan1_icon {
+  width: 6rem;
+  height: 6rem;
 }
 </style>
